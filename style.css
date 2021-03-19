@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+.page div {
+	background-color: red;
+	color:white;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	border: 1px solid #aabfba;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+button:last-child{
+	margin-right: 0;
+}
